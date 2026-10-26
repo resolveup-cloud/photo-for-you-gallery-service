@@ -5,7 +5,7 @@ import { GetAlbumUseCase } from '../../albums/use-cases/get-album.use-case';
 import { PhotosRepository } from '../repositories/photos.repository';
 import { StorageRepository } from '../../storage/repositories/storage.repository';
 import { assertValidUUID } from '../../security/utils/validation.util';
-import * as sharp from 'sharp';
+import sharp from 'sharp';
 import * as exifParser from 'exif-parser';
 
 @Injectable()

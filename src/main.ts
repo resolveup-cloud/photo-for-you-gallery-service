@@ -3,7 +3,7 @@ import { ValidationPipe } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { AppModule } from './app.module';
 import helmet from 'helmet';
-import * as compression from 'compression';
+import compression from 'compression';
 import { json, urlencoded } from 'express';
 import { SanitizeInterceptor } from './security/interceptors/sanitize.interceptor';
 
