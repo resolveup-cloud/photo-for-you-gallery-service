@@ -1,0 +1,101 @@
+{
+  "repository": "resolveup-cloud/photo-for-you-gallery-service",
+  "retiredWorkflow": ".github/workflows/build-artifact.yml",
+  "workflowId": 372093757,
+  "archivedSha256": "cbc128b43e9921405e5bae2a01a3f7b41dceb527d94c365600a4686d317ee3de",
+  "sourceCommit": "209f323e3e1b722e82858494f203eb02797273b2",
+  "nativeRunId": "cmvpxl5wx000a01o4s7iu2vnc",
+  "nativeStatus": "SUCCEEDED",
+  "publication": {
+    "id": "cmvq2hz9y0000flphha33p5fn",
+    "status": "SUCCEEDED",
+    "commitSha": "209f323e3e1b722e82858494f203eb02797273b2",
+    "runId": "cmvpxl5wx000a01o4s7iu2vnc",
+    "targetId": "photo-for-you-gallery-service-images",
+    "errorCode": null,
+    "receipt": {
+      "kind": "registry",
+      "runId": "cmvpxl5wx000a01o4s7iu2vnc",
+      "images": [
+        {
+          "tag": "ghcr.io/resolveup-cloud/photo-for-you-gallery-service:sha-209f323e3e1b722e82858494f203eb02797273b2",
+          "aliases": [
+            {
+              "tag": "ghcr.io/resolveup-cloud/photo-for-you-gallery-service:latest",
+              "registryDigest": "sha256:4b07c3ed5c2983ab421482821689d0b6ec52d7e0ba933ed25b6d25a3b1c4bde3",
+              "registryReference": "ghcr.io/resolveup-cloud/photo-for-you-gallery-service@sha256:4b07c3ed5c2983ab421482821689d0b6ec52d7e0ba933ed25b6d25a3b1c4bde3"
+            }
+          ],
+          "archive": {
+            "kind": "oci",
+            "artifacts": [
+              {
+                "key": "publications/cmvq2hz9y0000flphha33p5fn/api/image.tar",
+                "bucket": "build-artifacts",
+                "sha256": "18213f312a318c656da1a97609f7a504d0261aa74b8bbdee7cf9125c023b0f5f",
+                "sizeBytes": 179363840,
+                "versionId": "172ede8c-c1b8-4c03-9b48-dc63950b7afd",
+                "downloadVerified": true,
+                "providerConfirmed": true
+              },
+              {
+                "key": "publications/cmvq2hz9y0000flphha33p5fn/api/image.tar.sha256",
+                "bucket": "build-artifacts",
+                "sha256": "86026250aad1092ebd77904ec1ef7dfbda60646556983f59824d7e3cfc20a0da",
+                "sizeBytes": 76,
+                "versionId": "c8e6a08c-5aa2-4b73-aa8e-2e60dcd4acd1",
+                "downloadVerified": true,
+                "providerConfirmed": true
+              },
+              {
+                "key": "publications/cmvq2hz9y0000flphha33p5fn/api/image.provenance.json",
+                "bucket": "build-artifacts",
+                "sha256": "4a50da29963b3efe162b821ab0dc5291ec0b871f67fd1bdf4c831cfa79453a9a",
+                "sizeBytes": 882,
+                "versionId": "166d82ad-3f43-4783-b95d-0485d5c5c97b",
+                "downloadVerified": true,
+                "providerConfirmed": true
+              }
+            ],
+            "configDigest": "sha256:beaa00391a1ca4382187e993f4a3711add2eb6fa7aa98c384e3bdf11e53da18c",
+            "archiveSha256": "18213f312a318c656da1a97609f7a504d0261aa74b8bbdee7cf9125c023b0f5f",
+            "manifestDigest": "sha256:4b07c3ed5c2983ab421482821689d0b6ec52d7e0ba933ed25b6d25a3b1c4bde3",
+            "downloadVerified": true,
+            "archiveManifestDigest": "sha256:4b07c3ed5c2983ab421482821689d0b6ec52d7e0ba933ed25b6d25a3b1c4bde3"
+          },
+          "imageId": "sha256:beaa00391a1ca4382187e993f4a3711add2eb6fa7aa98c384e3bdf11e53da18c",
+          "revision": "209f323e3e1b722e82858494f203eb02797273b2",
+          "artifactId": "api",
+          "localCache": {
+            "removed": true
+          },
+          "architecture": "amd64",
+          "registryDigest": "sha256:4b07c3ed5c2983ab421482821689d0b6ec52d7e0ba933ed25b6d25a3b1c4bde3",
+          "registryReference": "ghcr.io/resolveup-cloud/photo-for-you-gallery-service@sha256:4b07c3ed5c2983ab421482821689d0b6ec52d7e0ba933ed25b6d25a3b1c4bde3"
+        }
+      ],
+      "targetId": "photo-for-you-gallery-service-images",
+      "commitSha": "209f323e3e1b722e82858494f203eb02797273b2",
+      "finishedAt": "2026-10-27T02:54:10Z",
+      "archiveSha256": "02722e5a2407d1b672ece351cb6fa776b57988af01cd56e3e554339d1d36970d"
+    },
+    "createdAt": "2026-10-27T02:29:41.206Z",
+    "finishedAt": "2026-10-27T02:54:13.215Z"
+  },
+  "replacement": "Automatic immutable registry publication plus verified OCI archive/checksum/provenance in owned private Cloud Object Storage",
+  "runtimeDeploymentClaimed": false,
+  "recordedAt": "2026-10-27T02:54:55.740846+00:00",
+  "providedCodeql": {
+    "repository": "photo-for-you-gallery-service",
+    "checkedAt": "2026-10-27T02:36:13.681501+00:00",
+    "workflowId": 323300285,
+    "path": "dynamic/github-code-scanning/codeql",
+    "defaultSetupState": "not-configured",
+    "beforeState": "active",
+    "disableExitCode": 1,
+    "afterState": "active",
+    "historyPreserved": true,
+    "configuredSecurityScanRetired": false,
+    "error": "gh: Unable to disable this workflow. (HTTP 422)\n"
+  }
+}
