@@ -1,0 +1,47 @@
+{
+  "repository": "resolveup-cloud/photo-for-you-gallery-service",
+  "projectId": "resolveup-services",
+  "ciRunId": "cmvpusmx9000801om61gu7b1r",
+  "ciStatus": "SUCCEEDED",
+  "sourceCommit": "17c736ae49273cdfe16a373af24941736ae304f6",
+  "publicationId": "cmvpwajcu00034uo48grclws7",
+  "publicationStatus": "SUCCEEDED",
+  "publicationReceipt": {
+    "kind": "registry",
+    "runId": "cmvpusmx9000801om61gu7b1r",
+    "images": [
+      {
+        "tag": "ghcr.io/resolveup-cloud/photo-for-you-gallery-service:sha-17c736ae49273cdfe16a373af24941736ae304f6",
+        "aliases": [
+          {
+            "tag": "ghcr.io/resolveup-cloud/photo-for-you-gallery-service:latest",
+            "registryDigest": "sha256:85feb1d70ee88b6e18fc40122ab121a3d0bcea3443449590dda1ee0b7de4c0d9",
+            "registryReference": "ghcr.io/resolveup-cloud/photo-for-you-gallery-service@sha256:85feb1d70ee88b6e18fc40122ab121a3d0bcea3443449590dda1ee0b7de4c0d9"
+          }
+        ],
+        "imageId": "sha256:9f1b16bfd64f3b8046c67ae84b211a0811110f1acdb3f906d36fbfb59c3150bb",
+        "revision": "17c736ae49273cdfe16a373af24941736ae304f6",
+        "artifactId": "api",
+        "localCache": {
+          "removed": true
+        },
+        "architecture": "amd64",
+        "registryDigest": "sha256:85feb1d70ee88b6e18fc40122ab121a3d0bcea3443449590dda1ee0b7de4c0d9",
+        "registryReference": "ghcr.io/resolveup-cloud/photo-for-you-gallery-service@sha256:85feb1d70ee88b6e18fc40122ab121a3d0bcea3443449590dda1ee0b7de4c0d9"
+      }
+    ],
+    "targetId": "photo-for-you-gallery-service-images",
+    "commitSha": "17c736ae49273cdfe16a373af24941736ae304f6",
+    "finishedAt": "2026-10-27T00:03:11Z",
+    "archiveSha256": "348c88a4e7a4f3a74aea6c4ad85d9d1f795cd274a52a65c8e0206c2bc121b5c3"
+  },
+  "retiredWorkflows": [
+    "ci-cd.yml"
+  ],
+  "remainingWorkflows": [
+    "build-artifact.yml"
+  ],
+  "archivedWorkflowSha256": {
+    "ci-cd.yml": "33fa25b62ce68e1a861ed088bfd7e8a45d41da518926c0f6882ab26608fd11fc"
+  }
+}
